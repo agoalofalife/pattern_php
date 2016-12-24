@@ -1,9 +1,11 @@
 <?php
 
-use Pattern\Creational\FactoryMethod\JsonFactory;
-use Pattern\Creational\FactoryMethod\JsonFormat;
-use Pattern\Creational\FactoryMethod\XmlFactory;
-use Pattern\Creational\FactoryMethod\XmlFormat;
+use Pattern\Creational\FactoryMethod\{
+    JsonFactory,
+    JsonFormat,
+    XmlFactory,
+    XmlFormat
+};
 
 class FactoryMethodTest extends PHPUnit\Framework\TestCase
 {
